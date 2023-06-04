@@ -1,0 +1,239 @@
+.aboutUsContainer {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  font-weight: 500;
+  line-height: 2;
+}
+.companyTitle {
+  font-size: 70px;
+  margin-bottom: 20px;
+}
+.companyImg {
+  width: 50%;
+}
+.aboutUsText {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 100px;
+  font-size: 18px;
+  width: auto;
+}
+.aboutUsText .firstText {
+  flex: 0.3;
+}
+.aboutUsText .secondText {
+  flex: 0.6;
+}
+.aboutUsText2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 100px 0;
+  font-size: 18px;
+}
+.aboutUsText2FirstText {
+  flex: 0.5;
+  font-size: 70px;
+}
+.aboutUsText2FirstText span {
+  text-decoration: line-through;
+}
+.aboutUsText2SecondText {
+  flex: 0.4;
+}
+.exp {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 100px 0;
+}
+.exp p {
+  font-size: 25px;
+}
+.exp img {
+  max-width: 40%;
+  border-radius: 10px;
+}
+.exp span {
+  font-size: 100px;
+}
+.theOwner {
+  margin: 150px 0;
+}
+.theOwner img {
+  max-width: 85%;
+  border-radius: 10px;
+}
+.theOwner p {
+  font-size: 35px;
+  margin: 15px 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .companyImg {
+    width: 100%;
+  }
+  .companyTitle {
+    font-size: 40px;
+  }
+  .aboutUsText {
+    flex-direction: column;
+    width: 100%;
+    margin: 50px auto;
+  }
+  .firstText {
+    margin-bottom: 50px;
+  }
+  .aboutUsText2 {
+    flex-direction: column;
+    text-align: left;
+  }
+  .exp {
+    flex-direction: column;
+  }
+  .exp span {
+    display: block;
+  }
+  .exp img {
+    max-width: 100%;
+    margin-bottom: 15px;
+  }
+  .talk {
+    flex-direction: column;
+  }
+  .aboutUsText2FirstText {
+    font-size: 35px;
+  }
+  .aboutUsText2SecondText {
+    text-align: center;
+    margin-top: 15px;
+  }
+  .theOwner {
+    margin: 100px 0;
+  }
+  .theOwner p {
+    font-size: 17px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .companyImg {
+    width: 100%;
+  }
+  .aboutUsText {
+    flex-direction: column;
+    width: 100%;
+    margin: 50px auto;
+    font-size: 25px;
+  }
+  .firstText {
+    margin-bottom: 50px;
+  }
+  .aboutUsText2 {
+    flex-direction: column;
+    text-align: left;
+    font-size: 25px;
+  }
+  .exp {
+    flex-direction: column;
+  }
+  .exp img {
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
+  .talk {
+    flex-direction: column;
+  }
+  .aboutUsText2FirstText {
+    font-size: 35px;
+    margin-bottom: 25px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .aboutUsContainer {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    font-weight: 500;
+  }
+  .companyTitle {
+    font-size: 70px;
+    margin-bottom: 20px;
+  }
+  .companyImg {
+    width: 50%;
+  }
+  .aboutUsText {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px;
+    width: auto;
+    font-size: 18px;
+    flex-direction: row;
+  }
+  .aboutUsText .firstText {
+    flex: 0.3;
+  }
+  .aboutUsText .secondText {
+    flex: 0.6;
+  }
+  .aboutUsText2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px;
+    width: auto;
+    flex-direction: row;
+    font-size: 18px;
+  }
+  .aboutUsText2FirstText {
+    flex: 0.6;
+    font-size: 70px;
+  }
+  .aboutUsText2FirstText span {
+    text-decoration: line-through;
+  }
+  .aboutUsText2SecondText {
+    flex: 0.4;
+  }
+  .exp {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    margin: 100px 0;
+  }
+  .exp p {
+    font-size: 25px;
+  }
+  .exp img {
+    max-width: 40%;
+  }
+  .exp span {
+    font-size: 100px;
+  }
+  .theOwner {
+    margin: 150px 0;
+  }
+  .theOwner img {
+    max-width: 85%;
+  }
+  .theOwner p {
+    font-size: 35px;
+    margin: 15px 0;
+  }
+}

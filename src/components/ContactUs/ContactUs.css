@@ -1,0 +1,11 @@
+.contactUsContainer {
+  position: relative;
+}
+.contactUsText {
+  color: #5f6973;
+  width: 80%;
+  margin: 25px auto;
+}
+.building {
+  max-width: 100%;
+}

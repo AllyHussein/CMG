@@ -1,0 +1,46 @@
+.ownerContainer {
+  margin: 200px 0;
+}
+.OwnerImg {
+  max-width: 100%;
+  position: relative;
+}
+.ownerTitle {
+  font-size: 5vw;
+  font-weight: 700;
+  text-align: center;
+  margin: 15px;
+}
+.ownerTitle2 {
+  position: absolute;
+  left: 20%;
+  font-size: 5vw;
+  margin: 20px 0;
+  font-weight: 700;
+  color: white;
+  z-index: 10;
+}
+@media only screen and (max-width: 600px) {
+  .ownerTitle2 {
+    left: 18%;
+  }
+  .ownerContainer {
+    margin: 100px 0;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}

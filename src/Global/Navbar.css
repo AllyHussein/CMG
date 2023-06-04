@@ -1,0 +1,115 @@
+.navbarContainer {
+  padding: 10px;
+  /* margin: 10px; */
+  /* position: fixed;
+  width: 100%;
+  background: #fff;
+  margin: 0;
+  z-index: 1000000; */
+}
+.logo {
+  width: 80px;
+  height: 80px;
+}
+
+.navbarLinksContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbarLinks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 0.3;
+  margin: 0;
+}
+.navbarLinks a {
+  text-decoration: none;
+}
+.navbarLinks li {
+  list-style: none;
+  color: #000000;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0 5px;
+}
+.navbarLinks button {
+  background-color: #001a33;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 25px;
+  cursor: pointer;
+  border: none;
+  font-weight: 500;
+  margin: 0 5px;
+  min-width: 150px;
+}
+.menuNavIcon {
+  display: none;
+  font-size: 25px;
+  cursor: pointer;
+}
+/* .navbarLinks button:hover {
+  background-color: #e20b0b;
+} */
+.rightBar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 60vw;
+  background-color: #191d18;
+  color: #ffffff;
+  z-index: 100;
+}
+.rightBarIcon {
+  font-size: 40px;
+  text-align: right;
+  padding: 20px;
+  cursor: pointer;
+}
+.rightBarLinks {
+  margin: 20px;
+  text-align: right;
+}
+.rightBarLinks li {
+  margin: 20px 0;
+}
+.rightBarLinks a {
+  list-style: none;
+  text-decoration: none;
+  color: #ffffff;
+  margin: 10px 0;
+  font-size: 25px;
+}
+.rightBarLinksContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 75%;
+}
+@media only screen and (max-width: 600px) {
+  .navbarLinks {
+    display: none;
+  }
+  .menuNavIcon {
+    display: block;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}

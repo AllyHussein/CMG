@@ -1,0 +1,92 @@
+.footer {
+  background-color: #001a33;
+  color: #fff;
+  font-size: 25px;
+}
+.viceFooter {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+.footerContainer {
+  flex: 0.4;
+  display: block;
+}
+.footerContainer .firstP {
+  font-size: 60px;
+}
+
+.partnerEmail {
+  text-decoration: none;
+  color: #fff;
+}
+.contact {
+  flex: 0.6;
+}
+.contact li {
+  list-style: none;
+  margin: 10px 0;
+}
+.contactTop {
+  display: flex;
+}
+.contactBottom {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 20px;
+  margin: 15px 0;
+}
+.contactBottom a {
+  text-decoration: none;
+  color: #fff;
+}
+.contactBottom ul {
+  flex: 0.3;
+}
+.contactBottom div {
+  flex: 0.4;
+}
+/* .contact p {
+  max-width: 350px;
+  word-wrap: break-word;
+} */
+@media only screen and (max-width: 600px) {
+  .viceFooter {
+    flex-direction: column;
+  }
+  .footerContainer {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .contactBottom {
+    justify-content: space-between;
+    font-size: 12px;
+  }
+  .contactTop {
+    font-size: 16px;
+    margin: 15px 0;
+    align-items: center;
+  }
+  .footerContainer .firstP {
+    font-size: 30px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}

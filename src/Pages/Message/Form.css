@@ -1,0 +1,56 @@
+.formContainer {
+  flex: 0.4;
+}
+.formSection {
+  display: flex;
+  justify-content: space-between;
+}
+.formSection div {
+  flex: 0.45;
+}
+.formContainer textarea {
+  resize: none;
+}
+.formContainer button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  background-color: #001a33;
+}
+.formLabel {
+  font-weight: 500;
+  font-size: 20px;
+}
+/* .formLabel input {
+  margin: 15px;
+} */
+@media only screen and (max-width: 600px) {
+  .formSection {
+    flex-direction: column;
+  }
+  .formSection div {
+    flex: 1;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+  .formSection {
+    flex-direction: column;
+  }
+  .formSection div {
+    flex: 1;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}

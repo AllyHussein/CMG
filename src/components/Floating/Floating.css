@@ -1,0 +1,106 @@
+.wrapper {
+  width: 100%;
+  margin: auto;
+  overflow-x: hidden;
+}
+
+.target {
+  font-weight: 400;
+  color: #202020;
+  font-size: 100px;
+  width: max-content;
+  animation-name: rightToLeft;
+  animation-duration: 50s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.target2 {
+  font-weight: 400;
+  color: #202020;
+  font-size: 65px;
+  animation-name: leftToRight;
+  animation-duration: 30s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.targetImgContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.targetImg {
+  width: 400px;
+  height: 250px;
+  margin: 40px 0;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.swiperWrapper {
+  width: 100%;
+  margin: 50px auto;
+  overflow-x: hidden;
+}
+
+@keyframes rightToLeft {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+@keyframes leftToRight {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+@media only screen and (max-width: 600px) {
+  .target,
+  .target2 {
+    font-size: 30px;
+  }
+  /* .swiperWrapper {
+    width: 400px;
+    margin: 50px auto;
+    overflow-x: hidden;
+  } */
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  /* .swiperWrapper {
+    width: 600px;
+    margin: 50px auto;
+    overflow-x: hidden;
+  } */
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  /* .swiperWrapper {
+    width: 768px;
+    margin: 50px auto;
+    overflow-x: hidden;
+  } */
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  /* .swiperWrapper {
+    width: 1200px;
+    margin: 50px auto;
+    overflow-x: hidden;
+  } */
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  /* .swiperWrapper {
+    width: 1500px;
+    margin: 50px auto;
+    overflow-x: hidden;
+  } */
+}

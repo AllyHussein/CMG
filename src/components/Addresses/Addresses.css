@@ -1,0 +1,35 @@
+.tabsTextContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.emailc {
+  color: #000;
+  text-decoration: none;
+}
+@media only screen and (max-width: 600px) {
+  .tabsTextContainer {
+    width: 75%;
+    margin: auto;
+    flex-direction: column;
+    height: 350px;
+    align-items: flex-start;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}

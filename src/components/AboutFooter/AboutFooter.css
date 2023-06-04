@@ -1,0 +1,167 @@
+.talk {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 25px 0;
+}
+.firstTalk {
+  flex: 0.4;
+  display: flex;
+  align-items: center;
+}
+.firstTalk p {
+  transform: rotate(180deg);
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}
+.secondTalk {
+  flex: 0.4;
+  text-align: left;
+  font-weight: 500;
+}
+.secondTalk button {
+  background-color: #001a33;
+  color: #ffffff;
+  padding: 15px;
+  border-radius: 25px;
+  cursor: pointer;
+  border: none;
+  font-weight: 500;
+  margin: 0 5px;
+  min-width: 150px;
+}
+.talkP {
+  font-size: 70px;
+  text-decoration: underline;
+}
+.aboutLinks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.aboutLink {
+  flex: 0.3;
+}
+.aboutLink1 {
+  flex: 0.3;
+  display: flex;
+  flex-direction: column;
+}
+.aboutLink1 a {
+  text-decoration: none;
+  margin: 10px 0;
+  color: #000;
+  font-size: 20px;
+}
+.helpText {
+  font-size: 20px;
+  color: grey;
+}
+.helpInfo {
+  font-size: 25px;
+  color: #5f6973;
+}
+.follow {
+  font-size: 20px;
+}
+.aboutIcon {
+  font-size: 30px;
+  margin: 10px;
+  color: #000;
+}
+.aboutBottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .talk {
+    align-items: flex-start;
+  }
+  .firstTalk {
+    display: block;
+    margin: 15px 0;
+  }
+  .firstTalk p {
+    transform: rotate(0deg);
+    writing-mode: horizontal-tb;
+    text-orientation: mixed;
+    text-align: left;
+  }
+  .talkP {
+    font-size: 40px;
+  }
+  .aboutLinks {
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+  }
+  .aboutLink,
+  .aboutLink1 {
+    margin: 20px 0;
+  }
+  .aboutBottom {
+    flex-direction: column;
+    text-align: left;
+    align-items: flex-start;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .talk {
+    align-items: flex-start;
+  }
+  .secondTalk {
+    margin: 20px 0;
+    font-size: 25px;
+  }
+  .aboutLinks {
+    display: block;
+  }
+  .aboutLink1 {
+    display: block;
+    margin-bottom: 20px;
+  }
+  .aboutLink1 a {
+    margin: 25px;
+    font-size: 25px;
+  }
+  .aboutBottom p {
+    font-size: 20px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .talk {
+    align-items: flex-start;
+    flex-direction: row;
+  }
+  .secondTalk {
+    margin: 20px 0;
+    font-size: 25px;
+  }
+  .aboutLinks {
+    display: flex;
+  }
+  .aboutLink1 {
+    display: flex;
+  }
+  .aboutLink1 a {
+    text-decoration: none;
+    margin: 10px 0;
+    color: #000;
+    font-size: 20px;
+  }
+}
